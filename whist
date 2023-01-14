@@ -1,0 +1,40 @@
+makefolder("YcaOffice")
+makefolder("YcaOffice\\error")
+makefolder("YcaOffice\\Success")
+makefolder("YcaOffice\\Save")
+
+if not isfile("YcaOffice\\error\\kickstupidbypasslololgaming2023.hwid") then
+	if not syn then
+	    --game:GetService("Players").LocalPlayer:Kick("Your exploit is not officially supported.")
+		writefile("YcaOffice\\error\\kickstupidbypasslololgaming2023.hwid", "u exploit its so very stupid")
+		writefile("YcaOffice\\error\\kickstupidbypasslololgaming2022.hwid", "urmom GG Stupid u suck")
+		writefile("YcaOffice\\error\\kickstupidbypasslololgaming2021.hwid", "man wtf u stupid")
+		writefile("YcaOffice\\error\\kickstupidbypasslololgaming2020.hwid", "LOL VERY STUPID 2020")
+		print("u exploit is NUB")
+		return
+	end
+end
+
+if not isfile("YcaOffice\\Success\\SynapseX.exp") then
+	if syn then
+		writefile("YcaOffice\\Success\\SynapseX.exp", "Synapse Detected")
+		print("Synapse X")
+		return
+	end
+end
+
+if not isfile("YcaOffice\\Success\\KRNL.exp") then
+	if KRNL_LOADED then
+		writefile("YcaOffice\\Success\\KRNL.exp", "Krnl Detected")
+		print("KRNL")
+		return
+	end
+end
+
+if not isfile("YcaOffice\\Success\\Scriptware.exp") then
+	if import then
+		writefile("YcaOffice\\Success\\Scriptware.exp", "Scriptware Detected")
+		print("scriptware")
+		return
+	end
+end
